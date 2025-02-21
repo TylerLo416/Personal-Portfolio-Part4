@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+    <nav>
+        <a href="./index.html">
+            <img class="mark" src="./resources/img/Mark.webP" alt="logo">
+        </a>
+        <ul class="navbar">
+          <li><a class="button" href="./index.html#introsection">About</a></li>
+          <li><a class="button" href="./index.html#portfolio">Portfolio</a></li>
+          <li><a class="button" href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="formsection">
+        <form id="form" action="submit_form.php" method="POST">
+            <label for="message">Contact Me:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>

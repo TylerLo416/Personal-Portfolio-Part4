@@ -1,0 +1,60 @@
+nav {
+    display: flex;
+    justify-content: center; /* Centers the navbar */
+    align-items: center;
+    background-color: black;
+    
+}
+
+.navbar {
+    position: sticky;
+    background: var(--background-black, #1b1b1b);
+    border: 2px solid #262626;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px; /* Adjust the value to control the roundness */
+    z-index: 2;
+    padding: 0 5%;
+    
+    
+    display: flex;
+    justify-content: space-between; /* Distributes links evenly */
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    min-height: 40px;
+}
+
+.button {
+    color: #1A71C9;
+}
+
+.mark {
+    width: 10dvmin;
+    height: 10dvmin;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #161616;
+    border: 1px solid #262626;
+
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: 1em;
+    border-radius: 14px;
+    height: 1.3em;
+}
+
+.text {
+    color: #C0C0C0;
+}
+
+.circle {
+    width: 1em; /* Adjust circle size as needed */
+    height: 1em; /* Adjust circle size as needed */
+    background-color: #68C0F1; /* Blue color */
+    border-radius: 50%; /* Make it a circle */
+}

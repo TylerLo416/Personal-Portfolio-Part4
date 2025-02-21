@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --faded-gray: color-mix(in srgb, white 78%, black 22%);
+    --background-black: color(display-p3 0.105 0.105 0.105);;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.twocolumn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+@media (max-width: 768px) { 
+    .twocolumn {
+        grid-template-columns: 1fr; 
+    }
+}
+
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid black;
+}

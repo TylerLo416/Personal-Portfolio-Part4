@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+
+        }
+        [id|=inner] {
+            background: green;
+            margin: 50px;
+            height: 40%;
+            width: 50%;
+            border-color:red;
+            border-width: 10px;
+            border-style: solid;
+            font-family: 'Courier New', Courier, monospace;
+
+          
+        }
+        #innerinner {
+            width: 50px;
+            height: 50px;
+            border: 15px;
+            border-width: 20px;
+            border-style: dashed;
+        }
+
+        div + p {
+            color: blue;
+        }
+    </style>
+        
+        <div id="inner-flower">This is the inner text
+            <p>first p</p>
+            <p> second p</p>
+            <span> span text</span>
+            <p> third p</p>
+        </div>
+
+        <p> fourth p</p>
+
+    
+
+</body>
+</html>

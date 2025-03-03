@@ -20,9 +20,13 @@
         </ul>
     </nav>
     <section class="formsection">
-        <form id="form" action="submit_form.php" method="POST">
+        <form id="form" action="https://httpbin.org/post" method="POST">
             <label for="message">Contact Me:</label>
-            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here..."></textarea>
+            <textarea id="name" name="name" rows="1" cols="50" placeholder="Name"></textarea>
+            <input id="email" name="email" type="email" placeholder="Email" required></input>
+            <textarea id="comments" name="comments" rows="4" cols="50" pattern="a" placeholder="Type your message here..."></textarea>
+            <span class="error-message">Only ASCII characters are allowed</span>
+            <input type="hidden" name="possible_bot "id="possible_bot" value="true">
             <br>
             <button type="submit">Submit</button>
         </form>
